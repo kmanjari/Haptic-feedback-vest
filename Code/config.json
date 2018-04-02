@@ -1,0 +1,19 @@
+{
+    "debug": false,
+
+    "cameras": {
+        "camera_delay": 0.5
+    },
+    
+    "depth_map": {
+        "disparity": 80
+    },
+
+    "motors": {
+        "percentile_threshold": 80,
+        "threshold_levels": [50, 125, 160, 200],
+        "power_pwm": [0, 650, 1500, 2250, 3000],
+        "num_rows": 4,
+        "num_cols": 4
+    }
+}

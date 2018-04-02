@@ -1,0 +1,8 @@
+[Unit]
+Description=Haptic Vest Service
+
+[Service]
+ExecStart=/home/pi/cs241_ee285_haptic/run_haptic.sh
+
+[Install]
+WantedBy=multi-user.target
